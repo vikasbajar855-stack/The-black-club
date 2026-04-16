@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>The Black Club</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      background: #000;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+    section {
+      padding: 7rem 1.5rem;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    h1, h2, h3 {
+      margin: 0 0 1rem 0;
+      font-weight: 500;
+    }
+    p {
+      line-height: 1.6;
+      margin: 0 0 1rem 0;
+    }
+    a {
+      color: #fff;
+      text-decoration: none;
+      border-bottom: 1px solid #fff;
+    }
+    .hero {
+      text-align: center;
+      padding: 12rem 1.5rem 8rem;
+      background: #000;
+    }
+    .hero h1 {
+      font-size: 3.5rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero p {
+      max-width: 600px;
+      margin: 0 auto 1.5rem;
+    }
+    .btn {
+      display: inline-block;
+      background: #fff;
+      color: #000;
+      padding: 0.8rem 2rem;
+      border-radius: 2rem;
+      margin: 0.3rem;
+      font-weight: 500;
+    }
+    .drops-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+    .drop-card {
+      border: 1px solid #333;
+      padding: 1rem;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero">
+    <h1>The Black Club</h1>
+    <p>A private collective for people who intentionally choose black.</p>
+    <p>Limited drops. Black‑only garments. Rarest premium heavy fabric.</p>
+    <a href="#join" class="btn">Join the Club</a>
+    <a href="#drops" class="btn">View Latest Drop</a>
+  </section>
+
+  <section>
+    <h2>Who We Are</h2>
+    <p>The Black Club is a private collective for those who intentionally choose black—through style, symbolism, and self‑expression. We operate on a limited‑drop model and use only premium, heavy‑duty black fabrics, designed to be worn and lived in.</p>
+  </section>
+
+  <section id="drops">
+    <h2>Latest Drops</h2>
+    <div class="drops-grid">
+      <div class="drop-card">
+        <h3>Heavyweight Hoodie</h3>
+        <p>Black-only. Heavy fabric. No restock.</p>
+        <a href="#">Notify on Launch</a>
+      </div>
+      <div class="drop-card">
+        <h3>Black Overcoat</h3>
+        <p>Rare premium wool. Limited run.</p>
+        <a href="#">Notify on Launch</a>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Why Black?</h2>
+    <p>Choosing black is a statement, not a default. The Black Club is for those who treat black as a deliberate choice rooted in identity, minimalism, and raw aesthetic.</p>
+  </section>
+
+  <section id="join">
+    <h2>Join The Collective</h2>
+    <p>Access private drops, early previews, and our community of members who share a deliberate relationship with black.</p>
+    <form action="#" method="post">
+      <p><label>Name<br><input type="text" placeholder="Your name" style="width:100%; padding:0.7rem; border:1px solid #333; background:#000; color:#fff;"></label></p>
+      <p><label>Email<br><input type="email" placeholder="your@email.com" style="width:100%; padding:0.7rem; border:1px solid #333; background:#000; color:#fff;"></label></p>
+      <p><label>Why black? (optional)<br><textarea style="width:100%; padding:0.7rem; border:1px solid #333; background:#000; color:#fff;" rows="3"></textarea></label></p>
+      <button type="submit" class="btn">Submit Application</button>
+    </form>
+  </section>
+
+  <footer>
+    <section>
+      <h3>The Black Club</h3>
+      <p>© 2025 The Black Club. All rights reserved.</p>
+      <p><a href="https://instagram.com/theblackclub_tbc">Instagram</a> | <a href="#">FAQ</a> | <a href="#">Contact</a></p>
+    </section>
+  </footer>
+
+</body>
+</html>
